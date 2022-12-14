@@ -1,4 +1,4 @@
-console.log("Czesc!");
+console.log("Czesc! ten cod jest juz w repozytorium Git");
 
 let przycisk = document.querySelector(".js-element__przycisk");
 let element = document.querySelector(".js-element");
