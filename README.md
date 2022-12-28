@@ -2,4 +2,4 @@
 
 ## Demo
 
-https://vitalikxxx.github.io/homapege/
+https://vitalikxxx.github.io/homepage/
