@@ -2,4 +2,4 @@
 
 ## Demo
 
-https://vitalikxxx.github.io/homapege/
+https://github.com/VITALIKXXX/homapege/blob/master/praca%20domowa%203/index.html
