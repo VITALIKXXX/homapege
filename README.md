@@ -1,6 +1,6 @@
 # Vitalii Tomenko - my works
 
-![Vitalii](Vitalii.jpeg)
+![Vitalii](images/Vitalii.jpeg)
 
 ## Demo
 
