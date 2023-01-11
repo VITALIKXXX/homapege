@@ -100,3 +100,8 @@ html {
     background-color: black;
     color: white;
 }
+
+.element__zdjecie {
+    object-fit: cover;
+
+}
