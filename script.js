@@ -1,10 +1,8 @@
-console.log("Czesc!");
+function welcome() {
+    console.log("Czesc!");
+}
 
-let przycisk = document.querySelector(".js-element__przycisk");
-let element = document.querySelector(".js-element");
-let themeName = document.querySelector(".js-element__themeName");
-
-przycisk.addEventListener("click", () => {
+let onPrzyciskClick = () => {
     element.classList.toggle("color");
 
     if (element.classList.contains("color")) {
@@ -14,5 +12,13 @@ przycisk.addEventListener("click", () => {
 
     }
 
-})
+};
+welcome();
+
+
+let przycisk = document.querySelector(".js-element__przycisk");
+let element = document.querySelector(".js-element");
+let themeName = document.querySelector(".js-element__themeName");
+
+przycisk.addEventListener("click", onPrzyciskClick);
 
