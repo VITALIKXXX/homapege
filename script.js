@@ -1,24 +1,27 @@
-function welcome() {
-    console.log("Czesc!");
-}
-
-let onPrzyciskClick = () => {
-    element.classList.toggle("color");
-
-    if (element.classList.contains("color")) {
-        themeName.innerText = "jasniejszy";
-    } else {
-        themeName.innerText = " ciemniejszy";
-
+{
+    const welcome = () => {
+        console.log("Czesc!");
     }
-
-};
-welcome();
-
-
-let przycisk = document.querySelector(".js-element__przycisk");
-let element = document.querySelector(".js-element");
-let themeName = document.querySelector(".js-element__themeName");
-
-przycisk.addEventListener("click", onPrzyciskClick);
-
+    
+    const toggleBackgroun = () => {
+        element.classList.toggle("color");
+    
+        if (element.classList.contains("color")) {
+            themeName.innerText = "jasniejszy";
+        } else {
+            themeName.innerText = " ciemniejszy";
+    
+        }
+    
+    };
+    welcome();
+    
+    
+    const przycisk = document.querySelector(".js-element__przycisk");
+    const element = document.querySelector(".js-element");
+    const themeName = document.querySelector(".js-element__themeName");
+    
+    przycisk.addEventListener("click", toggleBackgroun);
+    
+    
+}
