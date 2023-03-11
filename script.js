@@ -4,11 +4,11 @@
     }
 
     const toggleBackgroun = () => {
-        const element = document.querySelector(".js-element");
-        const themeName = document.querySelector(".js-element__themeName");
-        element.classList.toggle("color");
+        const mainElement = document.querySelector(".js-main");
+        const themeName = document.querySelector(".js-themeName");
+        mainElement.classList.toggle("color");
 
-        if (element.classList.contains("color")) {
+        if (mainElement.classList.contains("color")) {
             themeName.innerText = "jasniejszy";
         } else {
             themeName.innerText = " ciemniejszy";
