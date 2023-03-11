@@ -20,6 +20,7 @@
     const init = () => {
 
         const przycisk = document.querySelector(".js-element__przycisk");
+
         przycisk.addEventListener("click", toggleBackgroun);
 
         welcome();
