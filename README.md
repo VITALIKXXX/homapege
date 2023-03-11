@@ -7,6 +7,8 @@
 - CSS
 - JavaScript
 
+![Animation](https://github.com/VITALIKXXX/homepage/blob/master/images/Animation%20Homepage.gif?raw=true)
+
 ## Demo
 
 https://vitalikxxx.github.io/homepage/
