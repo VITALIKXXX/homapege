@@ -8,14 +8,8 @@
         const themeName = document.querySelector(".js-themeName");
         mainElement.classList.toggle("color");
 
-        if (mainElement.classList.contains("color")) {
-            themeName.innerText = "jasniejszy";
-        } else {
-            themeName.innerText = " ciemniejszy";
-
-        }
-
-    };
+        themeName.innerText = mainElement.classList.contains("color") ? "jasniejszy" : " ciemniejszy";
+    }
 
     const init = () => {
 
